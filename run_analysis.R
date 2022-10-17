@@ -1,6 +1,6 @@
 # Getting & cleaning data course project:
-library(pacman)
-p_load(rio, dplyr, glue)
+library(pacman) # pacman is a library that allows you to call multiple other libraries in one line using the p_load function.
+p_load(rio, dplyr, glue) # rio is a package that eases importing files using the import function instead of read.csv and glue is function that allows you to use variables withing strings like the idea of an f-string in the python programming language.
 
 # 1) Importing the txt files in the train folder as data frames and giving them descriptive variable names:
 setwd("M:/Computer Science/R_programming/Coursera/Data science specialization by John Hopkins university/Getting & cleaning data course/Course project/UCI HAR Dataset")
